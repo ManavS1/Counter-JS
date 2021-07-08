@@ -50,3 +50,17 @@ h1{
 .btn:hover{
     background: #000;
 }
+
+@media screen and (max-width: 480px) {
+    .btn-group{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    h1{
+        font-size: 6rem;
+        margin-bottom: 3rem;
+    }
+}
